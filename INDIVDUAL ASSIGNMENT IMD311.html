@@ -1,0 +1,285 @@
+<html> 
+    <head>
+        
+      <style>
+        body {
+          background-image: url('img_flower.jpg');
+          background-repeat: no-repeat;
+          background-attachment: fixed; 
+          background-size: 100% 100%
+        } </style>
+            <title>INDIVIDUAL ASSIGNMENT</title>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+body {font-size:16px;}
+.w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
+.w3-half img:hover{opacity:1}
+</style>
+</head>
+<body>
+            <!-- Sidebar/menu -->
+            <nav class="w3-sidebar w3-purple w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
+              <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
+              <div class="w3-container">
+                <h3 class="w3-padding-64"><b>Personal<br>Information</b></h3>
+              </div>
+              <div class="w3-bar-block">
+                <a href="#biodata" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Biodata</a> 
+                <a href="#experience" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Experience</a> 
+                <a href="#education" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Education</a> 
+                <a href="#family" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Family</a> 
+                <a href="#gallery" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Gallery</a>
+              </div>
+            </nav>
+            <!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large w3-red w3-xlarge w3-padding">
+  <a href="javascript:void(0)" class="w3-button w3-red w3-margin-right" onclick="w3_open()">☰</a>
+  <span>Personal Information</span>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:340px;margin-right:40px">
+             <!-- Header -->
+  <div class="w3-container" style="margin-top:80px" id="biodata">
+    <h1 class="w3-xxxlarge w3-text-white"><b>Biodata</b></h1>
+    <hr style="width:50px;border:5px solid rgb(0, 0, 0)" class="w3-round">
+  </div>
+           <!-- Photo grid (modal) -->
+  <div class="w3-row-padding">
+    <div class="w3-half">
+      <img src="NUR FAKRAH.jpeg" width="250" height="400" onclick="onClick(this)" alt="nurfakrah">
+     
+       <p style="text-align:justify"></p>
+      <h4 style="background-color:#717171e0;">NAME: NUR FAKRAH BT SAFUDIN </h4>
+      <h4 style="background-color: #717171e0;">AGE: 21 YEARS OLD</h4>
+      <h4 style="background-color: #717171e0;">GENDER: FEMALE</h4>
+      <h4 style="background-color: #717171e0;">DATE OF BIRTH: 16 SEPTEMBER 2002</h4>
+      <h4 style="background-color: #717171e0;">EMAIL: fakrahsafudin16@gmail.com</h4>
+      <h4 style="background-color: #717171e0;">STATE: SARAWAK</h4> 
+      
+    </div>        
+          
+    
+            
+           <!-- Header -->
+  <div class="w3-container" style="margin-top:80px" id="experience">
+    <h1 class="w3-xxxlarge w3-text-white"><b>Experience</b></h1>
+    <hr style="width:50px;border:5px solid rgb(0, 0, 0)" class="w3-round">
+  </div>
+           <center><img src="JOB EXPERIENCE.jpeg" alt="job experience" width="230" height="300"></center>
+            <p style="text-align: justify;"></p>
+            <h4 style="background-color: aqua;">I have job experience for 1 years, im working as a customer sevices at boutique. The boutique name is Hijab Sarawak. </h4>
+            <img src="INTERNSHIP EXPERIENCE ART STAND.jpeg" alt="internship experience art stand" width="300" height="230">
+            <img src="INTERNSHIP EXPERIENCE BINDING.jpeg" alt="internship experience binding" width="230" height="300">
+            <img src="INTERNSHIP EXPERIENCE SHELVING.jpeg" alt="internship experience shelving" width="220" height="300">
+            <p style="text-align: justify;"></p>
+            <h4 style="background-color: aqua;">I have internship experience for 1 and half months only at Pustaka Negeri Sarawak. I have learn so many things during internship. </h4>
+            
+            <center><ul type="squre"> </center>
+              <li style="background-color: #6d0a57e0;" >The last picture is shelving the book using call number and color code.</li>
+              <li style="background-color: #6d0a57e0;"> The first picture is I need to display art stand for exhibition poster.</li>
+              <li style="background-color: #6d0a57e0;">The second picture is binding document</li>
+            </ul>
+           
+
+<!-- Header -->
+<div class="w3-container" style="margin-top:80px" id="education">
+  <h1 class="w3-xxxlarge w3-text-white"><b>Education</b></h1>
+  <hr style="width:50px;border:5px solid rgb(0, 0, 0)" class="w3-round">
+</div>
+        
+        
+        <table border="1" align="center" width="100%" bgcolor="white"> 
+     <tr>
+        <th width="500">EDUCATION</th>
+    </tr>
+    <tr>
+        <th width="500" height="100">
+        <style>
+            * {box-sizing: border-box;}
+        body {font-family: Verdana, sans-serif;}
+        .mySlides {display: none;}
+        img {vertical-align: middle;}
+        
+        /* Slideshow container */
+        .slideshow-container {
+          max-width: 550px;
+          position: relative;
+          margin: auto;
+        }
+        
+        /* Caption text */
+        .text {
+          color: #ff0000;
+          font-size: 15px;
+          padding: 8px 12px;
+          position: absolute;
+          bottom: 8px;
+          width: 100%;
+          text-align: center;
+        }
+        
+       
+        .active {
+          background-color: #717171;
+        }
+        
+        /* Fading animation */
+        .fade {
+          animation-name: fade;
+          animation-duration: 1.5s;
+        }
+        
+        @keyframes fade {
+          from {opacity: .4} 
+          to {opacity: 1}
+        }
+        
+        /* On smaller screens, decrease text size */
+        @media only screen and (max-width: 300px) {
+          .text {font-size: 11px}
+        }
+        </style>
+        </head>
+
+        <body>
+        
+        <div class="slideshow-container">
+        
+        <div class="mySlides fade">
+          <div class="numbertext"></div>
+          <img src="PRIMARY SCHOOL.jpeg" width="500" height="300">
+          <div class="text">PRIMARY SCHOOL</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext"></div>
+          <img src="SECONDARY SCHOOL.jpeg" width="500" height="300">
+          <div class="text">SECONDARY SCHOOL</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext"></div>
+          <img src="UITM MUKAH.jpeg" width="500" height="300">
+          <div class="text">UITM MUKAH</div>
+        </div>
+        
+        <div class="mySlides fade">
+            <div class="numbertext"></div>
+            <img src="UITM KEDAH.jpeg" width="500" height="300">
+            <div class="text">UITM KEDAH</div>
+          </div>
+        </div>
+        <br>
+        
+        <div style="text-align:center">
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+          <span class="dot"></span>
+        </div>
+        
+        <script>
+        let slideIndex = 0;
+        showSlides();
+        
+        function showSlides() {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}    
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+          setTimeout(showSlides, 2000) ; // Change image every 5 seconds
+        }
+        </script>
+        </style>
+        <tr>
+            <th width="600" height="50">
+                <h5>The first slide is primary school, i start school at SK SEMARIANG since 6 years old until 12 years old.</h5>
+            </th>
+        
+          </tr>
+  
+          <tr>
+            <th width="600" height="50">
+                <h5>The second slide is primary school, i start school at SMK SEMERAH PADI since 12 years old until 17 years old.</h5>
+            </th>
+      
+          </tr>
+
+          <tr>
+            <th width="600" height="50">
+                <h5>The third slide is UITM MUKAH, i have been study pra diploma for 6 month at UITM MUKAH, the course is business management</h5>
+            </th>
+        
+          </tr>
+  
+          <tr>
+            <th width="600" height="50">
+                <h5>The last slide is UITM KEDAH, i have been study diploma for 2 years or 4 sem at UITM KEDAH. Now im at sem 4 which is sem last for this diploma, the course i studied is library management.</h5>
+            </th>
+      
+          </tr>
+          
+          
+ 
+    </table>
+  <!-- Header -->
+  <div class="w3-container" style="margin-top:80px" id="family">
+    <h1 class="w3-xxxlarge w3-text-white"><b>Family</b></h1>
+    <hr style="width:50px;border:5px solid rgb(0, 0, 0)" class="w3-round">
+  </div>
+    <center><img src="FAMILY 2.jpeg" alt="family 2" width="400" height="300"></center>
+    <p style="background-color: aqua;">My family has 8 members including my parents, I have 6 siblings, I am the third. I have a brother, a sister and a younger brother and two younger sisters. 
+      My father works as a manual laborer and my mother is a housewife.Now, we have one more member of my family is my brother-in-law.
+    </p>
+
+   <!-- Photo grid (modal) -->
+  <div class="w3-container" style="margin-top:80px" id="gallery">
+    <h1 class="w3-xxxlarge w3-text-white"><b>Gallery</b></h1>
+    <hr style="width:50px;border:5px solid rgb(0, 0, 0)" class="w3-round">
+  </div>
+    <center><video width="250" height="420" controls>
+      <source src="QUALITY TIME.mp4" type="video/mp4">
+    </video></center>
+     <!-- Photo grid (modal) -->
+  <div class="w3-row-padding">
+    <div class="w3-half">
+      <img src="PICNIC WITH FRIENDS.jpeg" style="width:100%" onclick="onClick(this)" alt="Picnic with friends">
+      <img src="BUKIT JELUTONG.jpeg" style="width:100%" onclick="onClick(this)" alt="Outing with friends">
+      <img src="KTM TELUK PULAI.jpeg" style="width:100%" onclick="onClick(this)" alt="Ktm teluk pulai">
+      <img src="PICNIC ft SUNSET.jpeg" style="width:100%" onclick="onClick(this)" alt="Picnic ft sunset">
+    </div>
+
+    <div class="w3-half">
+      <img src="SUNSET UITM KEDAH.jpeg" style="width:100%" onclick="onClick(this)" alt="Sunset uitm kedah">
+      <img src="PROGRAM FACULTY INFORMATION MANAGEMENT.jpeg" style="width:100%" onclick="onClick(this)" alt="Prograam faculty information management">
+      <img src="KLCC.jpeg" style="width:100%" onclick="onClick(this)" alt="Klcc">
+      <img src="OUTING WITH FRIENDS.jpeg" style="width:100%" onclick="onClick(this)" alt="Bukit jelutong">
+    </div>
+  </div>
+
+   <center> <video width="200" height="400" controls>
+      <source src="2022 RECAP.mp4" type="video/mp4">
+    </video></center>
+
+</body>
+
+
+    </head>
+        </html>
